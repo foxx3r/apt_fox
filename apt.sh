@@ -32,8 +32,8 @@ then
 elif [ $fox == 3 ]
 then
     read -p "Qual pacote deseja instalar? -> " fux
-    sudo apt install $fux -y > /dev/nul
-    echo "pacote instalado com sucesso!"l
+    sudo apt install $fux -y > /dev/null
+    echo "pacote instalado com sucesso!"
 elif [ $fox == 4 ]
 then
     read -p "Qual pacote voce deseja remover? -> " fix
