@@ -5,7 +5,7 @@ echo ' mmmmmm
  #mmmmm #" "#   #m#   # # #  "   #  #"  #
  #      #   #   m#m   # # #  m"""#  #   #
  #      "#m#"  m" "m  # # #  "mm"#  #   # '
-echo "agora voce pode executar este programa apenas digitando 'Foxman'!!!"
+echo "agora voce pode executar este programa apenas digitando 'foxman'!!!"
 echo "Telegram: @Foxxer_SA"
 echo "Se inscreve la '@AcervoHackerBR'!!!"
 echo "GitHub: foxx3r"
