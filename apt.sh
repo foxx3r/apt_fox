@@ -36,7 +36,12 @@ then
     read -p "Qual pacote deseja instalar? -> " fux
     echo "instalando..."
     sudo apt install $fux -y > /dev/null
-    echo "pacote instalado com sucesso!"
+    if [ -f "/usr/bin/$fux" ]
+    then
+        echo "O pacote ja esta instalado"
+    else
+        echo "pacote instalado com sucesso!"
+    fi
 elif [ $fox == 4 ]
 then
     read -p "Qual pacote voce deseja remover? -> " fix
