@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/bash #INTERPRETADOR QUE SERÁ UTILIZADO
 
-cp -r ./apt.sh /usr/bin/foxman
+cp -r ./apt.sh /usr/bin/foxman #COPIANDO O ARQUIVO PARA OS BINARIOS PARA QUE VOCE POSSA EXECUTA-LO
 
 echo ' mmmmmm
  #       mmm   m   m  mmmmm   mmm   m mm
@@ -11,9 +11,9 @@ echo "agora voce pode executar este programa apenas digitando 'foxman'!!!"
 echo "Telegram: @Foxxer_SA"
 echo "Se inscreve la '@AcervoHackerBR'!!!"
 echo "GitHub: foxx3r"
-sleep 1
+sleep 1 #ESPERAR 1 SEGUNDO
 
-while true
+while true #LOOP INFINITO ENQUANTO A CONDICAO FOR TRUE= ENQUANTO
 do
 
 echo "--------------------------------------------"
@@ -24,12 +24,13 @@ echo "[4] REMOVER UM PACOTE                      |"
 echo "[5] PESQUISAR POR UM PACOTE                |"
 echo "[6] AUTOREMOVER PACOTES DESNECESSARIOS     |"
 echo "--------------------------------------------"
-read -p "Selecione uma opcao -> " fox
+read -p "Selecione uma opcao -> " fox #PEÇA PARA O USUARIO DIGITAR UM VALOR, ESTE VALOR SERA ARMAZENADO DENTRO DA VARIAVEL $fox
 
-if [ $fox == 1 ]
+#SE
+if [ $fox == 1 ] 
 then
     echo "atualizando..."
-    sudo apt update > /dev/null
+    sudo apt update > /dev/null 
     echo "repositorios atualizados com sucesso!"
 
 elif [ $fox == 2 ]
