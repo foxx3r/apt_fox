@@ -66,6 +66,6 @@ elif [ $fox == 6 ]
 then
     echo "removendo pacotes..."
     sudo apt autoremove -y > /dev/null
-
+    echo "pacotes desnecessários removidos com sucesso!"
 fi
 done
